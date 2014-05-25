@@ -8,9 +8,9 @@
 //## Gray and brand colors for use across Bootstrap.
 
 @gray-darker:            #000000; // #222
-@gray-dark:              #7b8a8b;   // #333
+@gray-dark:              #a8a49f;   // #333
 @gray:                   #a8a49f; // #555
-@gray-light:             #b4bcc2;   // #999
+@gray-light:             #a8a49f;   // #999
 @gray-lighter:           #f2f2f2; // #eee
 
 @brand-primary:         #59514b;
@@ -65,7 +65,7 @@
 @headings-font-family:    @font-family-base;
 @headings-font-weight:    400;
 @headings-line-height:    1.1;
-@headings-color:          inherit;
+@headings-color:          @brand-primary;
 
 
 //-- Iconography
@@ -128,7 +128,7 @@
 @table-bg-active:               @table-bg-hover;
 
 //** Border color for table and cell borders.
-@table-border-color:            @gray;
+@table-border-color:            @brand-primary;
 
 
 //== Buttons
@@ -176,14 +176,14 @@
 //** Text color for `<input>`s
 @input-color:                    @text-color;
 //** `<input>` border color
-@input-border:                   #dce4ec;
+@input-border:                   @gray;
 //** `<input>` border radius
 @input-border-radius:            @border-radius-base;
 //** Border color for inputs on focus
 @input-border-focus:             @brand-primary;
 
 //** Placeholder text color
-@input-color-placeholder:        #acb6c0;
+@input-color-placeholder:        @gray;
 
 //** Default `.form-control` height
 @input-height-base:              (@line-height-computed + (@padding-base-vertical * 2) + 2);
@@ -397,15 +397,15 @@
 @nav-open-link-hover-color:                 #ede8e1;
 
 //== Tabs
-@nav-tabs-border-color:                     @gray;
+@nav-tabs-border-color:                     @brand-primary;
 
-@nav-tabs-link-hover-border-color:          @gray;
+@nav-tabs-link-hover-border-color:          @brand-primary;
 
 @nav-tabs-active-link-hover-bg:             @body-bg;
 @nav-tabs-active-link-hover-color:          @brand-primary;
-@nav-tabs-active-link-hover-border-color:   @gray;
+@nav-tabs-active-link-hover-border-color:   @brand-primary;
 
-@nav-tabs-justified-link-border-color:            @gray;
+@nav-tabs-justified-link-border-color:            @brand-primary;
 @nav-tabs-justified-active-link-border-color:     @body-bg;
 
 //== Pills
@@ -639,7 +639,7 @@
 //** Background color on `.list-group-item`
 @list-group-bg:                 #ede8e1;
 //** `.list-group-item` border color
-@list-group-border:             @gray;
+@list-group-border:             @brand-primary;
 //** List group border radius
 @list-group-border-radius:      @border-radius-base;
 
@@ -653,8 +653,8 @@
 @list-group-active-border:      @list-group-active-bg;
 @list-group-active-text-color:  lighten(@list-group-active-bg, 40%);
 
-@list-group-link-color:         #555;
-@list-group-link-heading-color: #333;
+@list-group-link-color:         @brand-primary;
+@list-group-link-heading-color: @brand-primary;
 
 
 //== Panels
@@ -666,11 +666,11 @@
 @panel-border-radius:         @border-radius-base;
 
 //** Border color for elements within panels
-@panel-inner-border:          @gray;
+@panel-inner-border:          @brand-primary;
 @panel-footer-bg:             @gray-lighter;
 
 @panel-default-text:          @text-color;
-@panel-default-border:        @gray;
+@panel-default-border:        @brand-primary;
 @panel-default-heading-bg:    @gray-lighter;
 
 @panel-primary-text:          #ede8e1;
@@ -703,7 +703,7 @@
 //** Thumbnail background color
 @thumbnail-bg:                @body-bg;
 //** Thumbnail border color
-@thumbnail-border:            @gray;
+@thumbnail-border:            @brand-primary;
 //** Thumbnail border radius
 @thumbnail-border-radius:     @border-radius-base;
 
@@ -813,7 +813,7 @@
 //** Blockquote font size
 @blockquote-font-size:        (@font-size-base * 1.25);
 //** Blockquote border color
-@blockquote-border-color:     @gray;
+@blockquote-border-color:     @brand-primary;
 //** Page header border color
 @page-header-border-color:    transparent;
 
@@ -823,7 +823,7 @@
 //##
 
 //** Horizontal line color.
-@hr-border:                   @gray;
+@hr-border:                   @brand-primary;
 
 //** Horizontal offset for forms and lists.
 @component-offset-horizontal: 180px;
